@@ -1,0 +1,122 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light_Grey: hsl(217, 12%, 63%);
+    --Medium_Grey: hsl(216, 12%, 54%);
+    --Dark_Blue: #1e252f;
+    --Very_DarkBlue: hsl(216, 12%, 8%);
+    --greyTransition: #262f38;
+    --color-primary: hsl(25, 97%, 53%);
+
+    background-color: var(--Very_DarkBlue);
+    
+}
+
+@import url(https://fonts.google.com/specimen/Overpass);
+
+body{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400, 500;
+    color: var(--Light_Grey);
+   
+}
+h1{
+    color: var(--White);
+}
+
+form{
+    margin-top: 8%;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+}
+
+/* Classes */
+/* Btn */
+
+.button_rate{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border-width: 0px;
+    color:var(--Light_Grey);
+    background-color: var(--greyTransition);
+    margin: 8px; 
+    cursor: pointer;  
+
+}
+
+.button_rate:focus{
+    background-color: var(--Light_Grey);
+    color: var(--White);
+}
+
+.submitBtn{
+    padding: 15px;
+    width: 95%;
+    border-radius: 20px;
+    border: 0px;
+    color: var(--White);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 550;
+    background-color: var(--color-primary);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+.rateInfo{
+
+    border-radius: 20px;
+    padding:5px;
+    width: 70%;
+    margin-left: calc(50% - 50%);
+    margin-bottom: 5%;
+    font-size: 15px;
+    color: var(--color-primary);
+    background-color: var(--greyTransition);
+    
+}
+
+/*Divs*/
+
+.ratingDiv {
+    /*display:none;*/
+    display: block;
+    width: 340px;
+    padding:40px;
+    border-radius: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--Dark_Blue);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.thanksDiv{
+    display: none;
+    width: 340px;
+    padding: 40px;
+    border-radius: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: var(--Dark_Blue);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+
+.iconDiv{
+    background-color: var(--greyTransition);
+    border-radius: 50%;
+    width: 20px;
+    padding: 10px;
+    height: 20px;
+}
+.starImg{
+    padding-left: 10%;
+}
