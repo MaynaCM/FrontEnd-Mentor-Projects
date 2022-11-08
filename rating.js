@@ -1,3 +1,5 @@
+//function to switch the divs //
+
 const switchDiv = () => {
 
     const ratingDiv = document.querySelector('.ratingDiv');
@@ -14,6 +16,8 @@ const switchDiv = () => {
     }
 
 }
+
+//functions to make the buttons "clickable"//
 
 
 const btn = document.querySelector('.submitBtn');
@@ -39,9 +43,10 @@ functionmay.forEach(botao => {
 
 
 
-// end of functions for feedback buttons // 
+// end of functions for buttons // 
 
 
+// mouse events //
 
 const btnEventsOver = document.querySelectorAll('.button_rate');
 
@@ -76,3 +81,4 @@ submitEvent.addEventListener("mouseout", () =>{
     submitEvent.style.backgroundColor = "";
 
 } )
+
