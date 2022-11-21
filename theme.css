@@ -100,13 +100,6 @@ p{
     
 }
 
-/* flex-box for Divs */
-.flex-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} 
-
 /*Divs*/
 
 .ratingDiv {
