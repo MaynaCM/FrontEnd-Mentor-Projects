@@ -43,16 +43,6 @@ p{
 /* Classes */
 /* front-end mentor line */
 
-.attribution {
-    font-size: 12px;
-    display: block;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 28rem;
-}
-
 /* Btn */
 
 .button_rate{
