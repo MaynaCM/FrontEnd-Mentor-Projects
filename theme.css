@@ -23,6 +23,7 @@ body{
     min-height: 100vh;
     overflow: hidden;
 }
+
 a{
     color: var(--color-primary);
 }
@@ -54,7 +55,7 @@ p{
 
 /* Btn */
 
-.button_rate{
+.button_rat{
     border-radius: 20px;
     width: 40px;
     height: 40px;
@@ -63,7 +64,6 @@ p{
     background-color: var(--greyTransition);
     margin: 8px; 
     cursor: pointer;  
-
 }
 
 .button_rate:focus{
