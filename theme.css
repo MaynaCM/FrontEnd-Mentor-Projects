@@ -16,13 +16,15 @@
 body{
     font-family: 'Overpass', sans-serif;
     font-weight: 400, 500;
+    color: var(--Light_Grey);
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    overflow: hidden;
 }
-
-   
+a{
+    color: var(--color-primary);
 }
 h1{
     color: var(--White);
@@ -38,6 +40,18 @@ p{
 }
 
 /* Classes */
+/* front-end mentor line */
+
+.attribution {
+    font-size: 12px;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 28rem;
+}
+
 /* Btn */
 
 .button_rate{
@@ -86,11 +100,29 @@ p{
     
 }
 
+/* flex-box for Divs */
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
 /*Divs*/
+
+.atribution {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: inherit;
+    padding-top: 28rem;
+}
 
 .ratingDiv {
     /*display:none;*/
     display: block;
+    position: absolute;
     width: 340px;
     padding:40px;
     border-radius: 25px; 
@@ -103,6 +135,7 @@ p{
 
 .thanksDiv{
     display: none;
+    position: absolute;
     width: 340px;
     padding: 40px;
     border-radius: 25px; 
@@ -114,7 +147,6 @@ p{
     letter-spacing: 1px;
 }
 
-
 .iconDiv{
     background-color: var(--greyTransition);
     border-radius: 50%;
@@ -122,6 +154,9 @@ p{
     padding: 10px;
     height: 20px;
 }
+
+/*img */
+
 .starImg{
     padding-left: 10%;
 }
